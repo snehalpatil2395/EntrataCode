@@ -53,7 +53,7 @@ Entrata Website : Selenium TestNG Maven Project
 		    String actualTitle = driver.getTitle();
 		    String expectedTitle = "Property Management Software | Entrata";
       
-	16 : To check testcase pass/fail we use assertion as, 	
+  16 : To check testcase pass/fail we use assertion as, 	
 		    Assert.assertEquals(actualTitle, expectedTitle);
       
   17 : Testcase for the website logo is present or not using aotaion and asertion,
@@ -83,13 +83,14 @@ Entrata Website : Selenium TestNG Maven Project
   23 : Click and enter the Username.
 		    driver.findElement(By.xpath("/html/body/div/div/div/div/div/form/ul/li[1]/div/input")).sendKeys("abc@gmail.com");
 		
-	24 : Click and enter the password.
+  24 : Click and enter the password.
 	    	driver.findElement(By.xpath("/html/body/div/div/div/div/div/form/ul/li[2]/input")).sendKeys("12345");
 		
   25 : To run testNG project, we have to update class in testng.xml file e.g. name= packegename. classname as,
         <classes>
         <class name="Entrata.EntrataDemo"></class>
         </classes>
-	26 : Run the code by using Run As =>TestNG Suite.
+	
+  26 : Run the code by using Run As =>TestNG Suite.
 		
   
